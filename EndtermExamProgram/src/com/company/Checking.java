@@ -19,6 +19,6 @@ public class Checking extends Account
 
     public String getAccountInfo()
     {
-        return("Checking Account Information\nAcct Num: " + getAccountNumber() + "\nBalance: " + getBalance());
+        return("\nChecking Account Information\nAcct Num: " + getAccountNumber() + "\nBalance: " + getBalance());
     }
 }

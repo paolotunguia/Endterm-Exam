@@ -32,6 +32,6 @@ public class Savings extends Account
 
     public String getAccountInfo()
     {
-        return("Savings Account Information\nAccount Number: " + getAccountNumber() + "\nBalance: " + getBalance() + "\nInterest Rate: " + getInterestRate() + "%");
+        return("\nSavings Account Information\nAccount Number: " + getAccountNumber() + "\nBalance: " + getBalance() + "\nInterest Rate: " + getInterestRate() + "%");
     }
 }
